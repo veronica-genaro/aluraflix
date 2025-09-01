@@ -2,8 +2,8 @@
 :root{ 
     --preto:#000; 
     --branco:#ffffff; 
-    --rosa:#b1279e; 
-    --verdeneo:#1cf115; 
+    --rosa:#ad7efa; 
+    --verdeneo:#34b4f0; 
 }
  /*corpo da pagina*/ 
  body{ 
@@ -30,3 +30,4 @@
         div{ 
             margin-right: 20px;/*margem a direita*/ 
         }
+        h1{
