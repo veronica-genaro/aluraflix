@@ -2,8 +2,9 @@
 :root{ 
     --preto:#000; 
     --branco:#ffffff; 
-    --rosa:#ad7efa; 
-    --verdeneo:#34b4f0; 
+    --roxo:#ad7efa; 
+    --azul:#34b4f0;
+    --amarelo:#ecea67; 
 }
  /*corpo da pagina*/ 
  body{ 
@@ -16,11 +17,11 @@
         border-color: var(--branco);/*cor da borda*/ 
         padding: 20px; /*espaçamento interno*/
         font-size: 32px;/*tamanho da fonte*/ 
-        color: var(--verdeneo)/*cor da fonte*/ 
+        color: var(--azul)/*cor da fonte*/ 
      } 
         
     section{ 
-            background-color: var(--rosa);/*cor de fundo*/ 
+            background-color: var(--roxo);/*cor de fundo*/ 
             padding-bottom: 80px;/*espaçamento inferior*/ 
             padding-top: 80px;/*espaçamento superior*/ 
             display:flex;/*alrta a disposição*/ 
@@ -57,7 +58,7 @@ img {
 
 
 .recomendacoes {
-    background-color: var(--lilas-claro);
+    background-color: var(--roxo);
     margin-left: 30px;/*margem a direita*/
     margin-right: 30px;/*margem a direita*/
 }
