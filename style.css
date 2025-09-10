@@ -4,7 +4,7 @@
     --branco:#ffffff; 
     --roxo:#ad7efa; 
     --azul:#34b4f0;
-    --amarelo:#ecea67; 
+    --roxo-escuro:#b641ec; 
 }
  /*corpo da pagina*/ 
  body{ 
@@ -63,7 +63,7 @@ img {
     margin-right: 30px;/*margem a direita*/
 }
 .outras-recomendacoes {
-    background-color: var(--amarelo);
+    background-color: var(--roxo-escuro);
     display: flex;
     overflow-x: auto;
     gap: 20px;
