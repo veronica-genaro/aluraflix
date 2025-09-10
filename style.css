@@ -7,31 +7,28 @@
     --roxo-escuro:#b641ec; 
 }
  /*corpo da pagina*/ 
- body{ 
-     color: var(--branco);/*cor da fonte*/
-     background-color: var(--preto);/*cor do fundo*/ 
-     margin: 0px;/*não tera margem padrão*/
-     } 
-     header{ 
-        border: solid 2px; 
-        border-color: var(--branco);/*cor da borda*/ 
-        padding: 20px; /*espaçamento interno*/
-        font-size: 32px;/*tamanho da fonte*/ 
-        color: var(--azul)/*cor da fonte*/ 
-     } 
-        
-    section{ 
-            background-color: var(--roxo);/*cor de fundo*/ 
-            padding-bottom: 80px;/*espaçamento inferior*/ 
-            padding-top: 80px;/*espaçamento superior*/ 
-            display:flex;/*alrta a disposição*/ 
-            justify-content: center;/*justificado no centro*/ 
-        } 
-        
-        div{ 
-            margin-right: 20px;/*margem a direita*/ 
-        }
-         .chamada {
+body{ 
+    color: var(--branco);/*cor da fonte*/
+    background-color: var(--preto);/*cor do fundo*/ 
+    margin: 0px;/*não tera margem padrão*/
+} 
+
+header{ 
+    border: solid 2px; 
+    border-color: var(--branco);/*cor da borda*/ 
+    padding: 20px; /*espaçamento interno*/
+    font-size: 32px;/*tamanho da fonte*/ 
+    color: var(--azul)/*cor da fonte*/ 
+} 
+
+.chamada-texto {
+    background-color: var(--amarelo);
+    color: var(--preto);
+    margin-right: 20px;/*margem a direita*/
+}
+
+.chamada {
+    .chamada {
     background: rgb(184, 156, 213);
      padding-bottom: 80px;/*espaçamento inferior*/
     padding-top: 80px;/*espaçamento superior*/
