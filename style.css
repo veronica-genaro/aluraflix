@@ -4,7 +4,7 @@
     --branco:#ffffff; 
     --roxo:#ad7efa; 
     --azul:#34b4f0;
-    --roxo-escuro:#b641ec; 
+    --roxo-escuro:#8425b1; 
 }
  /*corpo da pagina*/ 
 body{ 
@@ -22,14 +22,13 @@ header{
 } 
 
 .chamada-texto {
-    background-color: var(--amarelo);
+    background-color: var(--roxo-escuro);
     color: var(--preto);
     margin-right: 20px;/*margem a direita*/
 }
 
 .chamada {
-    .chamada {
-    background: rgb(184, 156, 213);
+    background: rgb(167, 118, 219);
      padding-bottom: 80px;/*espaçamento inferior*/
     padding-top: 80px;/*espaçamento superior*/
     display: flex;/*alterar a disposição*/
